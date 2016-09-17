@@ -3,7 +3,7 @@ import os
 from au_cscart_browsers import Browsers
 
 au_cscart_prjRoot = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-print au_cscart_prjRoot
+#print au_cscart_prjRoot
 
 def getConfig():
     confFilePath = os.path.join(au_cscart_prjRoot,"features","au_cscart_config.ini")
