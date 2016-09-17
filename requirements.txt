@@ -1,5 +1,4 @@
-Python==2.7.10
-hamcrest==1.8
+Python==3.1
 ConfigParser==3.5.0b1
 selenium==2.47.0
 behave==1.2.5
