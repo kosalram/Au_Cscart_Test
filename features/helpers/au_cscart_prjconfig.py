@@ -2,8 +2,7 @@ import configparser
 import os
 from au_cscart_browsers import Browsers
 
-#au_cscart_prjRoot = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-au_cscart_prjRoot = os.path.dirname(os.path.dirname(__file__))
+au_cscart_prjRoot = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #print au_cscart_prjRoot
 
 def getConfig():
