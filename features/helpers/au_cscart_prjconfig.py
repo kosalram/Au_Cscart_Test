@@ -1,6 +1,6 @@
 import configparser
 import os
-#from au_cscart_browsers import Browsers
+from au_cscart_browsers import Browsers
 
 au_cscart_prjRoot = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #print au_cscart_prjRoot
@@ -17,8 +17,8 @@ def get_setting(partent,key):
     return config.get(partent,key)
 
 def get_browser():
-    #return Browsers.get_browser(get_setting("selenium","driver"))
-    return get_setting("selenium","driver")
+    return Browsers.get_browser(get_setting("selenium","driver"))
+   
 
 print("Driver Assigned =" + " "+ get_setting("selenium", "driver"))
 
