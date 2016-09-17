@@ -1,0 +1,24 @@
+
+
+# Create folder structure
+    @done
+# Do Testcycles
+    @done
+# Upload the source to github
+    @on-going
+# Build it with Travis
+# Nice looking reports
+
+
+######################
+https://github.com/EliotJones/behave-selenium-template
+https://github.com/systers/automated-testing
+
+
+http://testingfreak.com/software-testing-interview-questions/
+
+http://www.softwaretestingnews.co.uk/test-magazine/
+http://www.istqb.in/index.php/istqb-advanced/exam-dates
+https://blog.jetbrains.com/pycharm/2014/09/feature-spotlight-behavior-driven-development-in-pycharm/
+
+https://anvileight.com/blog/2016/04/12/behavior-driven-development-pycharm-python-django/
