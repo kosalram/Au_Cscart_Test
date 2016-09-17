@@ -1,6 +1,8 @@
 language: python
 python:
   - "2.7.10"
+hamcrest:
+  - "1.9.0"
 install:
   - pip install -r requirements.txt
 script:
