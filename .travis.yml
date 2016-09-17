@@ -1,6 +1,6 @@
 language: python
 python:
-  - "2.7.10"
+  - "3.1"
 hamcrest:
   - "1.9.0"
 install:
