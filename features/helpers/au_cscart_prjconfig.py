@@ -7,6 +7,9 @@ from .au_cscart_browsers import Browsers
 au_cscart_prjRoot =os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 #print au_cscart_prjRoot
 
+def is_64bit():
+    return sys.maxsize > 2**32
+
 def getConfig():
     confFilePath = os.path.join(au_cscart_prjRoot,"features","au_cscart_config.ini")
     configParse = configparser.RawConfigParser()
@@ -40,4 +43,13 @@ def get_url():
     return (get_setting("tests","url"))
 
 #print("Test URL =" + " "+ get_setting("tests", "url"))
+
+def is_windows():
+    return platform.system().lower() == "windows"
+    
+def is_linux():
+    return platform.system().lower() == "linux"
+    
+def get_chromedriver():
+    return "chromedriver.exe" if is_windows() else "chromedriver_l64" if is_64bit() else "chromedriver_l32"
 
