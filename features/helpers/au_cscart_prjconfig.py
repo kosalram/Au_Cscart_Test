@@ -32,8 +32,8 @@ def get_browser():
 def read_chromedriver_location():
     return os.path.join(au_cscart_prjRoot,"tools",get_chromedriver())
 
-def get_chromedriver():
-    return "chromedriver.exe"
+#def get_chromedriver():
+    #return "chromedriver.exe"
 
 def read_ie_location():
     return os.path.join(au_cscart_prjRoot,"tools",get_iedriver())
