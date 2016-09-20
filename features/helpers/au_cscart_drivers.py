@@ -1,4 +1,4 @@
-from au_cscart_browsers import Browsers
+from .au_cscart_browsers import Browsers
 from helpers import au_cscart_prjconfig
 import os
 from selenium import webdriver
