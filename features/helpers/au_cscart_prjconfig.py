@@ -21,7 +21,7 @@ def get_browser():
     return Browsers.get_browser(get_setting("selenium","driver"))
    
 
-print("Driver Assigned =" + " "+ get_setting("selenium", "driver"))
+#print("Driver Assigned =" + " "+ get_setting("selenium", "driver"))
 
 def read_chromedriver_location():
     return os.path.join(au_cscart_prjRoot,"tools",get_chromedriver())
@@ -38,5 +38,5 @@ def get_iedriver():
 def get_url():
     return (get_setting("tests","url"))
 
-print("Test URL =" + " "+ get_setting("tests", "url"))
+#print("Test URL =" + " "+ get_setting("tests", "url"))
 
